@@ -46,7 +46,7 @@
 
 #define USE_TEST_SCENE (0)
 #define USE_DOUBLE     (1)
-#define USE_CAPTURE    (1)
+#define USE_CAPTURE    (0)
 #define DUMP_VOLUME    (0)
 #define DUMP_AREA      (0)
 #define DUMP_Q_TRI     (0)
