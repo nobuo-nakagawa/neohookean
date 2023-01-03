@@ -1795,7 +1795,7 @@ void motion(int x, int y) {
 int main(int argc, char* argv[]) {
   glutInit(&argc, argv);
 #if defined(__APPLE__) || defined(MACOSX)
-  glutInitDisplayString("hidpi core rgba double");
+  //  glutInitDisplayString("hidpi core rgba double");
 #endif
   glutInitDisplayMode(GLUT_RGBA | GLUT_DEPTH | GLUT_DOUBLE | GLUT_ACCUM | GLUT_STENCIL);
   //glutInitDisplayMode(GLUT_RGB | GLUT_DEPTH | GLUT_SINGLE | GLUT_ACCUM | GLUT_STENCIL);
